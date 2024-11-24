@@ -6,8 +6,7 @@ int main() {
     printf("Digite a temperatura em Farenheit: ");
     scanf("%f", &f);
     
-    f = f - 32;
-    c = (5/9) * f;
+   c = (f-32) * 5/9;
 
     printf("%.2f F é igual a %.2f C", f, c);
     return 0;
